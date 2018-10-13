@@ -1,0 +1,443 @@
+{
+  "ID": "8a1f58b1-28a1-4917-926c-fc1f86e8952f",
+  "Version": "2.3.3.0",
+  "Name": "rotate250",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 120,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -1947120977,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1947120977,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.9,
+                "Y": 0.9,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.9,
+                "Y": 0.9,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.9,
+                "Y": 0.9,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1947120977,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1947120977,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 255,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 127,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 255,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1947120977,
+            "Property": "BlendFunc",
+            "Frames": [
+              {
+                "Src": 1,
+                "Dst": 1,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Length": 20.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Scale": {
+          "ScaleX": 1.0,
+          "ScaleY": 1.0
+        },
+        "CColor": {},
+        "BlendFunc": {
+          "Src": 770,
+          "Dst": 771
+        },
+        "Tag": 2517,
+        "Children": [
+          {
+            "Length": 20.0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 1
+            },
+            "Tag": 3259,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animation/res/attack/ef_snowstorm01/speedlight.png",
+                  "Plist": "animation/res/ef3.plist"
+                },
+                "Scale9Width": 128,
+                "Scale9Height": 256,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 118.0,
+                  "Y": 9.0
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 0.4
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 54.0,
+                "RightMargin": -182.0,
+                "TopMargin": -137.0,
+                "BottomMargin": -119.0,
+                "Tag": 4937,
+                "ActionTag": 1153229039,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 256.0
+                },
+                "Name": "r",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animation/res/attack/ef_snowstorm01/speedlight.png",
+                  "Plist": "animation/res/ef3.plist"
+                },
+                "Scale9Width": 128,
+                "Scale9Height": 256,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -118.0,
+                  "Y": 9.0
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 0.4
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -182.0,
+                "RightMargin": 54.0,
+                "TopMargin": -137.0,
+                "BottomMargin": -119.0,
+                "Tag": 4938,
+                "ActionTag": -489221373,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 256.0
+                },
+                "Name": "l",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animation/res/attack/ef_snowstorm01/speedlight.png",
+                  "Plist": "animation/res/ef3.plist"
+                },
+                "Scale9Width": 128,
+                "Scale9Height": 256,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 6.0,
+                  "Y": 51.0
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -58.0,
+                "RightMargin": -70.0,
+                "TopMargin": -183.5,
+                "BottomMargin": -81.5,
+                "Tag": 4939,
+                "ActionTag": 275940112,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 265.0
+                },
+                "Name": "u",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animation/res/attack/ef_snowstorm01/speedlight.png",
+                  "Plist": "animation/res/ef3.plist"
+                },
+                "Scale9Width": 128,
+                "Scale9Height": 256,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -58.0,
+                  "Y": -37.0
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -122.0,
+                "RightMargin": -6.0,
+                "TopMargin": -27.0,
+                "BottomMargin": -101.0,
+                "Tag": 4940,
+                "ActionTag": 584046832,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "Name": "dl",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "animation/res/attack/ef_snowstorm01/speedlight.png",
+                  "Plist": "animation/res/ef3.plist"
+                },
+                "Scale9Width": 128,
+                "Scale9Height": 256,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": -37.0
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1.0,
+                "RightMargin": -129.0,
+                "TopMargin": -27.0,
+                "BottomMargin": -101.0,
+                "Tag": 4941,
+                "ActionTag": -1582623452,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "Name": "dr",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1947120977,
+            "ZOrder": 2,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "line",
+            "ctype": "BoneNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Skeleton",
+        "ctype": "SkeletonNodeObjectData"
+      },
+      "UsedResources": [
+        "../res/ef3.plist",
+        "../res/ef3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Skeleton"
+}

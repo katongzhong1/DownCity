@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>animation/res/monster/heroHetu/heroShaonianshengzhi/arm_l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,655},{143,198}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{143,198}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroShaonianshengzhi/arm_r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,459},{179,194}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{179,194}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroShaonianshengzhi/body.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,855},{129,184}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{129,184}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroShaonianshengzhi/head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{146,655},{121,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{121,115}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroShaonianshengzhi/legs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{206,456}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{206,456}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>mon46.png</string>
+			<key>realTextureFileName</key>
+			<string>mon46.png</string>
+			<key>size</key>
+			<string>{512,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

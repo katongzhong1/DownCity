@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>animation/res/monster/monLong/honglong/wing_l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{447,796}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{447,796}</string>
+			</dict>
+			<key>animation/res/monster/monLongGold/body.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{450,1},{493,402}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{493,402}</string>
+			</dict>
+			<key>animation/res/monster/monLongGold/decorations1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,799},{210,360}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{210,360}</string>
+			</dict>
+			<key>animation/res/monster/monLongGold/head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{686,405},{275,311}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{275,311}</string>
+			</dict>
+			<key>animation/res/monster/monLongGold/leg_l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{363,799},{197,321}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{197,321}</string>
+			</dict>
+			<key>animation/res/monster/monLongGold/leg_r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{450,405},{229,323}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{229,323}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>mon32.png</string>
+			<key>realTextureFileName</key>
+			<string>mon32.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

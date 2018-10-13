@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>animation/res/monster/monLuolanaZ/body.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,568},{410,710}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{410,710}</string>
+			</dict>
+			<key>animation/res/monster/monLuolanaZ/leg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{807,405}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{807,405}</string>
+			</dict>
+			<key>animation/res/monster/monLuolana/legs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{713,568},{222,279}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{222,279}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/10_0007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{989,332},{29,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{29,28}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/18_0008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{908,332},{66,79}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{66,79}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/arm_l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{933,126},{70,122}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,122}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/arm_r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{933,250},{83,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{83,80}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/body.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{933,1},{74,123}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{74,123}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{908,400},{56,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{56,71}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/legs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{810,1},{121,285}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{121,285}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/shoulder_l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{981,400},{40,53}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{40,53}</string>
+			</dict>
+			<key>animation/res/monster/monNvwushi/shoulder_r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{981,455},{42,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{42,47}</string>
+			</dict>
+			<key>animation/res/monster/monSenlinlang/head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{713,792},{214,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{214,250}</string>
+			</dict>
+			<key>animation/res/monster/monSenlinlang/tail.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{810,288},{96,278}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,278}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>mon35.png</string>
+			<key>realTextureFileName</key>
+			<string>mon35.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

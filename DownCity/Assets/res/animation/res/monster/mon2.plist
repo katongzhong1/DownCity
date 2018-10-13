@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>animation/res/monster/heroHetu/heroHeirenfashi/arm_l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{548,707}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{548,707}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroHeirenfashi/arm_r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376,710},{135,347}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{135,347}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroHeirenfashi/legs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{551,1},{361,535}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{361,535}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroHuangjiahuwei/arm_l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{551,538},{130,292}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{130,292}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroHuangjiahuwei/arm_r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{608,847},{124,312}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{124,312}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroHuangjiahuwei/body.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{376,847},{170,230}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{170,230}</string>
+			</dict>
+			<key>animation/res/monster/heroHetu/heroHuangjiahuwei/head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,710},{216,373}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{216,373}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>mon2.png</string>
+			<key>realTextureFileName</key>
+			<string>mon2.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

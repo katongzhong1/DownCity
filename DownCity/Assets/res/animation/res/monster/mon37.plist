@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>animation/res/monster/monRongyanjuren/legs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{446,420}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{446,420}</string>
+			</dict>
+			<key>animation/res/monster/monRongyanjuren/body.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,423},{301,295}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{301,295}</string>
+			</dict>
+			<key>animation/res/monster/monShachong/body.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{449,1},{300,562}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{300,562}</string>
+			</dict>
+			<key>animation/res/monster/monShachong/ecShachong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{315,423},{135,110}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{135,110}</string>
+			</dict>
+			<key>animation/res/monster/monShachong/head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{553,651},{209,188}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,188}</string>
+			</dict>
+			<key>animation/res/monster/monShachong/headup.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{304,651},{247,148}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,148}</string>
+			</dict>
+			<key>animation/res/monster/monShachong/tail.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{850,303},{504,153}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{504,153}</string>
+			</dict>
+			<key>animation/res/monster/monShenyuanjumang/arm_l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,809},{212,312}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{212,312}</string>
+			</dict>
+			<key>animation/res/monster/monShenyuanjumang/arm_r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{315,801},{171,192}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{171,192}</string>
+			</dict>
+			<key>animation/res/monster/monShenyuanjumang/head.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{449,303},{399,346}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{399,346}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>mon37.png</string>
+			<key>realTextureFileName</key>
+			<string>mon37.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>
