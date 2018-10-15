@@ -20,5 +20,4 @@ public class MainEvent : MonoBehaviour {
             case "castle": Debug.Log("===>点击了 城堡"); break;
         }
     }
-
 }
