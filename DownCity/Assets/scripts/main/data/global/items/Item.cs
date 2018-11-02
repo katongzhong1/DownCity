@@ -16,7 +16,7 @@ namespace GST.ItemSpace {
         /// <summary>
         /// 品质等级 The quality level.
         /// </summary>
-        public int qlvl;
+        public Grade qlvl;
         /// <summary>
         /// 财宝等级 The treasure class.
         /// </summary>
@@ -29,5 +29,9 @@ namespace GST.ItemSpace {
         /// 需求等级 The require level.
         /// </summary>
         public int reqlvl;
+        /// <summary>
+        /// 超凡的 The ethereal.
+        /// </summary>
+        public bool ethereal;
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using GST.CharaSpace;
 
 public class MainEvent : MonoBehaviour {
 
@@ -18,6 +19,13 @@ public class MainEvent : MonoBehaviour {
             case "cemetery": Debug.Log("===>点击了 墓地"); break;
             case "battle": Debug.Log("===>点击了 火堆"); break;
             case "castle": Debug.Log("===>点击了 城堡"); break;
+        }
+    }
+
+    private void Start() {
+        for (var i = 0; i < 20; i++) {
+            NameCreator creator = new NameCreator();
+            Debug.Log(creator.GetSurname() + " " + creator.GetLastname());
         }
     }
 }

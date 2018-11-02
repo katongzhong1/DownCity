@@ -22,17 +22,15 @@ namespace GST.TreasureSpace {
         // Private Properties
         //======================================================================
         /// <summary>
-        /// 全概率参数 All.
-        /// </summary>
-        private int all;
-        /// <summary>
         /// 0或多个tc The tcs.
         /// </summary>
-        private Dictionary<Treasure, float> tcs;
+        private int[,] tcs;
+        private int tall;
         /// <summary>
         /// 0或多个基础物品 The objects.
         /// </summary>
-        private Dictionary<int, float> objs;
+        private int[,] objs;
+        private int oall;
 
         //======================================================================
         // Public Functions
@@ -56,29 +54,66 @@ namespace GST.TreasureSpace {
 
         private Item DropItem(Monster monster) {
             // 1. 是否掉落物品
-            if (IsNoDrop()) {
+            Random rand = new Random();
+            int num = rand.Next(nodrop + tall + oall);
+            if (num <= nodrop) {
                 return null;
             }
-            Item item = new Item();
-            // 2. 检测物品类型 
-            item.type = GetItemType();
-            // 3. 物品的TC检定
-            item.tc = GetItemTC(monster.tc, item.type);
-            // 4. 物品的等级
-            item.ilvl = 0;
-            // 5. 物品的类型检定
-            item.id = GetItemId(item.tc, item.type);
-            // 6. 物品的品质检定
-            item.qlvl = GetItemGrade();
-            // 7. 是否有插槽
+            // 2. 是否是子tc
+            if (num <= tall) {
+                int cur = nodrop;
+                for (var i = 0; i < tcs.Length; i++) {
+                    cur += tcs[i, 0];
+                    if (num <= cur) {
+                        Treasure temp = new Treasure();
+                        return temp.DropItem(monster);
+                    }
+                }
+            }
+            // 3. 掉落物品
+            int curfinal = nodrop + tall;
+            for (var j = 0; j < objs.Length; j++) {
+                curfinal += objs[j, 0];
+                if (num <= curfinal) {
+                    Item item = new Item();
+                    // 2. 检测物品类型 
+                    item.type = GetItemType();
+                    // 3. 物品的TC检定
+                    item.tc = GetItemTC(monster.tc, item.type);
+                    // 4. 物品的等级
+                    item.ilvl = 0;
+                    // 5. 物品的类型检定
+                    item.id = GetItemId(item.tc, item.type);
+                    // 6. 物品的品质检定
+                    item.qlvl = GetItemGrade();
+                    // 7. 是否有插槽
 
-            // 8. 是否是超凡的Ethereal
-            return item;
+                    // 8. 是否是超凡的Ethereal
+                    return item;
+                }
+            }
+            return null;
         }
 
-        private static Grade GetItemGrade() {
+        private Grade GetItemGrade() {
             // 怪物等级/类型、人物MF、物品ilvl决定
             return Grade.Ancient;
+        }
+
+        private Grade GetGrade(int mlvl, int qlvl, float mf, int[,] vds, int idx) {
+            //==> ch1 = value - (mlvl - qlvl) / Divisor
+            int ch1 = vds[idx, 0] - (mlvl - qlvl) / vds[idx, 1];
+            //==> ch2 = ch1 * 128 * (1 - CX / 1024)
+            int ch2 = ch1 * 128 * (1 - vds[idx, 2] / 1024);
+            //==> MF<10, UF=SF=RF=MF; MF>=10: XF = MF * x / (x + MF)
+            float xf = mf < 10 ? mf : mf * vds[idx, 3] / (mf + vds[idx, 3]);
+            float final = ch2 * 100 / (100 + xf);
+            Random ran = new Random();
+            int rand = ran.Next((int)final);
+            if (rand > 128) {
+                return GetGrade(mlvl, qlvl, mf, vds, idx);
+            }
+            return (Grade)vds[idx, 4];
         }
 
         private static int GetItemId(int tc, ItemType type) {

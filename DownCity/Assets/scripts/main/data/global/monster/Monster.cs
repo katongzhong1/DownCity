@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace GST.MonsterSpace {
     public class Monster {
         //======================================================================
